@@ -17,7 +17,7 @@ public class SelenideWikiCorrectContentAssert {
     @Test
     void findJUnit5InWiki() {
         open("/selenide/selenide");
-        
+
         $("#wiki-tab").click();
 
         $("#wiki-pages-filter").setValue("SoftAssertions");
